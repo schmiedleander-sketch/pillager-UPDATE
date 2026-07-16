@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "morepillagers",
+  "version": "1.0.0",
+  "name": "More Pillagers Update Mod",
+  "description": "Expands the Pillager civilization with unique boss fights, advanced tactical troops, detailed Geckolib models, and high-quality textures.",
+  "authors": [
+    "Jules"
+  ],
+  "contact": {
+    "homepage": "https://github.com/example/morepillagers"
+  },
+  "license": "MIT",
+  "icon": "assets/morepillagers/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.morepillagers.mod.MorePillagers"
+    ],
+    "client": [
+      "com.morepillagers.mod.client.MorePillagersClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "geckolib": ">=4.0"
+  }
+}
